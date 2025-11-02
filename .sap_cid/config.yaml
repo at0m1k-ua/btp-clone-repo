@@ -1,11 +1,8 @@
----
 stages:
   build:
     buildTool: "mta"
     buildDescriptor: "mta.yaml"
     buildToolVersion: "MBTJ21N22"
-    source: helloworldclone
-    npmExecuteLint: false
   malwareScan:
     scan: false
   release:
